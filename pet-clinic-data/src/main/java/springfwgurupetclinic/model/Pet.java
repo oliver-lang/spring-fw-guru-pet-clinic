@@ -1,4 +1,4 @@
-package com.example.springfwgurupetclinic.model;
+package springfwgurupetclinic.model;
 
 import java.util.Date;
 
