@@ -1,10 +1,12 @@
 package springfwgurupetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import springfwgurupetclinic.model.Vet;
 import springfwgurupetclinic.services.VetService;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap
         extends AbstractMapService<Vet, Long>
         implements VetService {
